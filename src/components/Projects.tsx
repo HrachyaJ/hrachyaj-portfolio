@@ -12,11 +12,21 @@ import project6 from "/ecom-react.png";
 import project7 from "/pixel-grid.png";
 import project8 from "/prandella.png";
 import project9 from "/fight-fit.png";
+import project10 from "/vibe.png";
 
 const Projects = () => {
   const [visibleProjects, setVisibleProjects] = useState(3);
 
   const allProjects = [
+    {
+      title: "Vibe - AI Website Builder",
+      description:
+        "A SaaS platform that enables users to create websites with a prompt, AI-powered code generation, website preview, and more.",
+      image: project10,
+      technologies: ["Next.js", "React", "Inngest", "Prisma"],
+      liveUrl: "https://vibe-coding-dev.vercel.app/",
+      githubUrl: "https://github.com/HrachyaJ/vibe",
+    },
     {
       title: "Acme Finance Dashboard",
       description:
