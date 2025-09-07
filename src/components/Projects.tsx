@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github } from "lucide-react";
 import project1 from "/acme-dashboard.png";
-import project2 from "/chat-with-pdf.png";
+import project2 from "/chat-to-pdf.png";
 import project3 from "/next-pizza.png";
 import project4 from "/amazon.png";
 import project5 from "/agency-nextjs.png";
