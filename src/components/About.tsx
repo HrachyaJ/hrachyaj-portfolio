@@ -59,7 +59,7 @@ const About = () => {
     },
     {
       category: "Database",
-      techs: ["PostgreSQL", "MongoDB", "MySQL", "Prisma", "Redis"],
+      techs: ["PostgreSQL", "MongoDB", "MySQL", "Prisma"],
       count: 5,
     },
     {

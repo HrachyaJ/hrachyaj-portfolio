@@ -13,11 +13,21 @@ import project7 from "/pixel-grid.png";
 import project8 from "/prandella.png";
 import project9 from "/fight-fit.png";
 import project10 from "/vibe.png";
+import project11 from "/converso.png";
 
 const Projects = () => {
   const [visibleProjects, setVisibleProjects] = useState(3);
 
   const allProjects = [
+    {
+      title: "Converso - AI Learning Platform",
+      description:
+        "An AI-powered learning management system where you can choose a topic and AI will teach you everything you need.",
+      image: project11,
+      technologies: ["Next.js", "React", "Supabase", "VAPI"],
+      liveUrl: "https://converso-learning.vercel.app",
+      githubUrl: "https://github.com/HrachyaJ/lms-platform",
+    },
     {
       title: "Vibe - AI Website Builder",
       description:
